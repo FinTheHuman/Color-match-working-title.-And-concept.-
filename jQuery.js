@@ -10,7 +10,7 @@ var colors = ["rgba(255, 0, 0, 1)", "rgba(0, 255, 0, 1)", "rgba(0, 0, 255, 1)"];
 	$('body').keydown(function(e){
 		if(e.keyCode == 38){ //up
 			$('#test').css({'background-color' : 'red'});
-			$('body').css({'background-color' : color[Math.random(0, 2)]});
+			$('body').css({'background-color' : colors[]});
 			//$('#number').append(1);
 		}
 		if(e.keyCode == 39){ //right
