@@ -2,19 +2,15 @@ $(document).ready(function(){
 
 
 
+var colors = ["rgba(255, 0, 0, 1)", "rgba(0, 255, 0, 1)", "rgba(0, 0, 255, 1)"];
 
 
 
-
-
-
-
-
-
+	
 	$('body').keydown(function(e){
 		if(e.keyCode == 38){ //up
 			$('#test').css({'background-color' : 'red'});
-			$('body').css({'background-color' : 'blue'});
+			$('body').css({'background-color' : color[Math.random(0, 2)]});
 			//$('#number').append(1);
 		}
 		if(e.keyCode == 39){ //right
@@ -33,6 +29,5 @@ $(document).ready(function(){
 			//$('#number').append(1);
 		}
 	});
-	$('#test').draggable();
 
 });
