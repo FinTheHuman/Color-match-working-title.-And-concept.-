@@ -7,3 +7,15 @@
 	margin-top: 20%;
 	margin-left: 45%;
 }
+#counter
+{
+	height: 50px;
+	width: 50px;
+	border: 3px dashed black;
+	text-align: center;
+}
+#number
+{
+	font-weight: bold;
+	font-size: 15px;
+}
